@@ -1,1 +1,2 @@
-# ALX Project Setup
+# Next.js Project Setup and Basics
+
