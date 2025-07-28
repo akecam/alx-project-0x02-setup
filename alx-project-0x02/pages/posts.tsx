@@ -1,14 +1,14 @@
+import PostCard from "@/components/common/PostCard";
 import Header from "@/components/layout/Header";
-import { PostProps } from "@/interfaces";
 import React from "react";
 
-const Posts = ({ title, content, userId }: PostProps) => {
+const posts = () => {
   return (
     <div>
       <Header />
-      <p>Posts</p>
+      <PostCard title="" content="" userId="" />
     </div>
   );
 };
 
-export default Posts;
+export default posts;
