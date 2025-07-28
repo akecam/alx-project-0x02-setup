@@ -1,5 +1,6 @@
 import Card from "@/components/common/Card";
 import PostModal from "@/components/common/PostModal";
+import Header from "@/components/layout/Header";
 import { CardProps } from "@/interfaces";
 import React, { useState } from "react";
 
@@ -22,6 +23,7 @@ const Home = () => {
 
   return (
     <div>
+      <Header />
       <button onClick={() => setModal(!modal)}>Add Card</button>
       <Card title="Empty Title" content="Empty Content" />
       <Card title="Empty Title" content="Empty Content" />
